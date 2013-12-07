@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Generation Time: Dec 07, 2013 at 01:05 PM
+-- Generation Time: Dec 07, 2013 at 01:28 PM
 -- Server version: 5.6.11-log
 -- PHP Version: 5.3.25
 
@@ -29,13 +29,13 @@ USE `cheapousers`;
 --
 
 CREATE TABLE IF NOT EXISTS `message` (
-  `id` int(11) NOT NULL,
+  `id` int(11) NOT NULL AUTO_INCREMENT,
   `body` varchar(200) NOT NULL,
   `subject` varchar(100) NOT NULL,
   `user_id` int(11) NOT NULL,
   `recipient_id` int(11) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
 
 -- --------------------------------------------------------
 

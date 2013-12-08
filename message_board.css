@@ -1,0 +1,47 @@
+body{
+	font-family: Tahoma;
+}
+#header{
+	background: #410A0F;
+}
+
+h1{
+	color: grey;
+	margin-bottom: 0;
+	text-align: center;
+	padding-bottom: 20px;
+	font-weight: bold;
+	font-size: 40px;
+	margin-top: 0;
+}
+
+#menu{
+	background: #410A0F;
+	color: grey;
+	height: 450px;
+	width: 150px;
+	font-size: 30px;
+	padding-bottom: 2em;
+	font-family: Tahoma;
+	text-align: center;
+	float: left;
+}
+
+#content{
+	background-color: #EEEEEE;
+	height:510px;
+	width:1185px;
+	float:left;
+	text-align: center;
+	font-size: 40px;
+}
+a{
+	color: #9B9995;
+}
+
+#footer{
+	background: #410A0F;
+	text-align: center;
+	clear: both;
+	color: grey;
+}

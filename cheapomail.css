@@ -1,0 +1,58 @@
+body{
+  background: #410A0F;
+}
+#heading{
+  color: grey;
+  text-align: center;
+  font-size: 30px;
+
+}
+#login-form {
+background-color: grey;
+margin:auto;
+position:relative;
+width:400px;
+height:250px;
+font-family: Tahoma;
+font-size: 13px;
+line-height: 24px;
+font-weight: bold;
+color: black;
+border-radius: 10px;
+padding:10px;
+border: 1px solid #999;
+border: 1px solid #333;
+}
+
+label{
+  font-size: 2em;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+input    {
+margin-bottom: 10px;
+width:375px;
+display:block;
+border: 1px solid #999;
+height: 25px;
+}
+
+input.button {
+width:50px;
+position:absolute;
+right:20px;
+bottom:20px;
+margin-bottom: 10px;
+background:#09C;
+color:#fff;
+font-family: Tahoma;
+height:30px;
+border-radius: 15px;
+border: 1px solid #999;
+}
+
+input.button:hover {
+background:#fff;
+color:#09C;
+}

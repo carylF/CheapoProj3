@@ -2,13 +2,10 @@
 <!DOCTYPE>
 <html >
 	<head>
-
 		<title>Cheapo Mail</title>
 		<meta http-equiv="Content-type" content="text/html;charset=ISO-8859-1" />
-
+		<script src='behaviour.js' type='text/javascript'></script>
  		<link rel="stylesheet" type="text/css" href="cheapomail.css" />
-
-
 	</head>
 
 	<body>
@@ -17,16 +14,16 @@
 			<h4>Always be in touch</h4>
 		</div>
 
-		<form id="login-form" >
+		<form id="login-form"  action='action.php?a=login' method='post'>
 
 			<div>
 				<h1>Login:</h1>
 				<label>
-				<span>Email Address</span><input id="email" type="text" name="email" placeholder="Enter Email"/>
+				<span>Username</span><input id="username" type="text" name="username" placeholder="Enter Username"/>
 				</label>
 
 				<label>
-				<span>Password</span><input id="password" type="text" name="password" placeholder="Password"/>
+				<span>Password</span><input id="password" type="password" name="password" placeholder="Password"/>
 				</label>
 
 				<label>

@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-
+	<?php session_start()?>
 	<head>
-
-		<title>Cheapo Mail</title>
+		<title> Cheapo Mail ||
+		<?php	echo ($_SESSION['Name']);?> 
+		</title>
 		<meta http-equiv="Content-type" content="text/html;charset=ISO-8859-1" />
 
  		<link rel="stylesheet" type="text/css" href="message_board.css" />
@@ -21,9 +22,15 @@
 
 			<div id="menu">
 				<h4><a href="#">Compose</a></h4>
-				<h4><a href="#">Inbox</a></h4>
-				<h4>stuff</h4>
-				<h4>stuff</h4>
+				<h4><a href="message_board.html">Inbox</a></h4>
+
+			<?php	//Capability of registering should only be accessible by the admin user 
+				if($_SESSION['Username'] == 'admin')
+				{
+					echo <h4><a href="register.html">Register</a></h4>
+				}
+			?>
+				<h4><a href='action.php?a=logout'>Logout</a></h4><!-- Sends request for logout control sequence to be run -->
 			</div>
 
 			<div id="content">

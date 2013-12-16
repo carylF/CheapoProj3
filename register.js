@@ -7,5 +7,5 @@ function preload()
 
 function messageboardredirect()
 {
-	location.replace('message_board.html');
+	location.replace('message_board.php');
 }

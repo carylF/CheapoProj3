@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding = "ISO-8859-1"?>
+<!--Stores the messages that are in transit -->
+<!-- File is updated via PHP -- DO NOT EDIT MANUALLY -->
+<!--TEMPLATE
+ 	<MESSAGE>
+ 		<ID>ID FOR THE MESSAGE</ID>
+ 		<TO> SENDER'S INFORMATION</TO>
+ 		<FROM> RECIPIENT INFORMATOIN</FROM>
+ 		<SUBJECT>SUBJECT OF THE MESSAGE </SUBJECT>
+ 		<CONTENT> MESSAGE TO BE SENT </CONTENT>
+ 		
+-->
+<MESSAGESTORE>
+</MESSAGESTORE>
